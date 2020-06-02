@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BingeBot4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="zdy-oV-t9h">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="876"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BingeBot🤖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkW-qn-Ow6">
+                                <rect key="frame" x="142" y="44" width="130.5" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="KF0-Cn-XNE">
+                                <rect key="frame" x="20" y="93" width="374" height="112.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOWS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvC-6t-DX0">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gintama, Rick &amp; Morty, Regular Show, American Crime Story, Into the Badlands" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pr1-0Y-WhB">
+                                        <rect key="frame" x="0.0" y="26.5" width="347" height="86"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Asu-22-9Hy">
+                                <rect key="frame" x="20" y="225.5" width="374" height="258.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="KCd-l5-vuf">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="133.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BINGEBOT HAS SPOKEN, YOU SHOULD WATCH:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g13-oI-4NT">
+                                                <rect key="frame" x="1" y="0.0" width="372.5" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular Show" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="olo-VR-750">
+                                                <rect key="frame" x="98" y="38.5" width="178" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmJ-CM-Xti">
+                                                <rect key="frame" x="91" y="93.5" width="192" height="40"/>
+                                                <state key="normal" image="binge-btn"/>
+                                                <connections>
+                                                    <action selector="randomBingeShowBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hN1-nm-sTL"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="06a-0o-PeG">
+                                        <rect key="frame" x="0.0" y="153.5" width="374" height="105"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a bingeworthy show" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="njV-wa-jRG">
+                                                <rect key="frame" x="83.5" y="0.0" width="207.5" height="34"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UjS-a5-ZZz">
+                                                <rect key="frame" x="91" y="65" width="192" height="40"/>
+                                                <state key="normal" image="add-show-btn"/>
+                                                <connections>
+                                                    <action selector="addShowbtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DfX-4W-jPj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KF0-Cn-XNE" firstAttribute="top" secondItem="FkW-qn-Ow6" secondAttribute="bottom" constant="20" id="Cle-QD-m8h"/>
+                            <constraint firstItem="FkW-qn-Ow6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Egr-05-gn3"/>
+                            <constraint firstItem="zdy-oV-t9h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IsH-QD-Uus"/>
+                            <constraint firstAttribute="bottom" secondItem="zdy-oV-t9h" secondAttribute="bottom" constant="20" symbolic="YES" id="LMa-rT-mgx"/>
+                            <constraint firstItem="Asu-22-9Hy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="S3R-xZ-Z9A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Asu-22-9Hy" secondAttribute="trailing" constant="20" id="TsR-D5-nic"/>
+                            <constraint firstItem="FkW-qn-Ow6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dlA-4e-kh1"/>
+                            <constraint firstItem="zdy-oV-t9h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mVH-dJ-eFo"/>
+                            <constraint firstItem="Asu-22-9Hy" firstAttribute="top" secondItem="KF0-Cn-XNE" secondAttribute="bottom" constant="20" id="ogt-sG-kpf"/>
+                            <constraint firstItem="zdy-oV-t9h" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qkY-DS-Ori"/>
+                            <constraint firstItem="KF0-Cn-XNE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tsx-sr-7Kj"/>
+                            <constraint firstAttribute="trailing" secondItem="KF0-Cn-XNE" secondAttribute="trailing" constant="20" id="zO0-Zw-aaV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="addShowBtn" destination="UjS-a5-ZZz" id="bxc-pA-cEt"/>
+                        <outlet property="addShowStackView" destination="06a-0o-PeG" id="8Kl-0T-ksR"/>
+                        <outlet property="addshowTxtField" destination="njV-wa-jRG" id="Uz6-ob-LtH"/>
+                        <outlet property="bingeBotSpokenLbl" destination="g13-oI-4NT" id="QNA-Zl-We6"/>
+                        <outlet property="randomShowLbl" destination="olo-VR-750" id="Vse-j6-tqv"/>
+                        <outlet property="rndomShowStackView" destination="KCd-l5-vuf" id="zRy-F1-dGe"/>
+                        <outlet property="showsLbl" destination="Pr1-0Y-WhB" id="39W-7f-599"/>
+                        <outlet property="showsStackView" destination="KF0-Cn-XNE" id="pur-HY-aud"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add-show-btn" width="192" height="40"/>
+        <image name="bg" width="375" height="667"/>
+        <image name="binge-btn" width="192" height="40"/>
+    </resources>
+</document>
